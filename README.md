@@ -68,7 +68,7 @@ The system is designed for:
 
 
 
-## Comprehensive Technical Documentation
+# Comprehensive Technical Documentation
 
 ---
 
@@ -96,7 +96,7 @@ The system is designed for:
 20. Challenges Faced During Development
 21. Engineering Decisions
 
----
+```
 
 # 1. Introduction
 
