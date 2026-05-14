@@ -1,5 +1,73 @@
 # Enterprise Meeting Intelligence Platform
+# Enterprise Meeting Intelligence & Decision Analytics System
 
+An enterprise-grade AI platform designed to transform meeting transcripts, audio recordings, and conversational data into actionable business intelligence using NLP, analytics, and multimodal AI pipelines.
+
+---
+
+# Overview
+
+The platform can enable organizations to:
+
+- Upload meeting transcripts, audio, or video recordings
+- Generate AI-powered meeting summaries
+- Extract action items and decisions automatically
+- Analyze sentiment and engagement trends
+- Detect project risks and unresolved issues
+- Visualize meeting analytics through dashboards
+- Search across historical meetings using semantic retrieval
+
+The system is designed for:
+- Consulting firms
+- Enterprise analytics teams
+- SaaS workflow automation
+- Project management intelligence
+- AI-driven business operations
+
+---
+
+# Full High-Level System Architecture
+
+```text
+                    ┌────────────────────┐
+                    │     Frontend UI    │
+                    │  React / Streamlit │
+                    └─────────┬──────────┘
+                              │
+                              ▼
+                    ┌────────────────────┐
+                    │     FastAPI API    │
+                    │  Backend Services  │
+                    └─────────┬──────────┘
+                              │
+     ┌────────────────────────┼────────────────────────┐
+     ▼                        ▼                        ▼
+
+┌───────────────┐   ┌─────────────────┐     ┌────────────────┐
+│ NLP Pipeline  │   │ Audio Pipeline  │     │ Analytics Core │
+└──────┬────────┘   └────────┬────────┘     └──────┬─────────┘
+       ▼                     ▼                           ▼
+
+- Summarization      - Whisper STT               - KPI Metrics
+- Action Extraction  - Librosa                   - Risk Analysis
+- Topic Modelling    - Voice Analytics           - Productivity
+- Sentiment Analysis - Speaker Segmentation      - Participation
+- Risk Detection                                    Analytics
+
+                              ▼
+                    ┌────────────────────┐
+                    │ Vector Database    │
+                    │ ChromaDB / FAISS   │
+                    └────────────────────┘
+
+                              ▼
+                    ┌────────────────────┐
+                    │ PostgreSQL DB      │
+                    │ Structured Storage │
+                    └────────────────────┘
+
+
+                    
 ## Comprehensive Technical Documentation
 
 ---
