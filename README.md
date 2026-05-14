@@ -1,7 +1,7 @@
 # Enterprise Meeting Intelligence Platform
 # Enterprise Meeting Intelligence & Decision Analytics System
 
-An enterprise-grade AI platform designed to transform meeting transcripts, audio recordings, and conversational data into actionable business intelligence using NLP, analytics, and multimodal AI pipelines.
+An enterprise-grade AI platform designed to transform meeting transcripts, audio recordings, and conversational data into actionable business intelligence using NLP, analytics, and multimodal AI pipelines. In this project, i mainly did the text part that my limited computational resources could support. Audio/Video part can be twigged in easily .
 
 ---
 
@@ -67,7 +67,7 @@ The system is designed for:
                     └────────────────────┘
 
 
-                    
+
 ## Comprehensive Technical Documentation
 
 ---
